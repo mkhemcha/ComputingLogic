@@ -30,11 +30,11 @@ main(Nummarkers,OptimalRuler) :- length(OptimalRuler, Nummarkers),
 %Compute difference of each point from other points
 distances([], []).
 distances([X|Ys], DifferenceList) :-
-	distances(X, Ys, DifferenceList, D1),
-	distances(Ys, D1).
+	distances(X, Ys, DifferenceList, TempDiff),
+	distances(Ys, TempDiff).
 
 %Compute difference of a particular point from other points
-distances(_, [], D, D).
-distances(X, [Y|Ys], [Sub|D1], D0) :-
+distances(_, [], TempDiff, TempDiff).
+distances(X, [Y|Ys], [Sub|D1], TempDiff) :-
 Sub #= Y-X,
-distances(X, Ys, D1, D0).
+distances(X, Ys, D1, TempDiff).
