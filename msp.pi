@@ -1,0 +1,25 @@
+%Mininimum Scalar Product
+import util.
+
+% V1 and V2 is are two input vectors in list format
+main(V1,V2) => writef("The minimum scalar product of v1 and v2 is %w",compute(V1,V2)).
+
+%sort V1 in ascending and V2 in descending and find minimum product using scalar_product 
+compute(V1,V2)=Prod => V3=V1.sort(),
+                       V4=V2.sort_down(),
+                       minof(scalar_product(V3,V4,Prod),Prod).
+
+%add the product terms
+scalar_product(V1,V2,Prod) => permute(V1,V11),
+                              V5=zip(V11,V2),
+                              Prod=sum([A1*B1 : {A1,B1} in V5]).
+
+%permutation as in prolog
+permute([], P) => P = [].
+permute(L, P) => P = [X|P1], 
+                 del(X, L, L1),
+                 permute(L1, P1).
+                 
+% delete from a list as in prolog
+del(X, [Y|L], L1) ?=> Y = X, L1 = L.
+del(X, [Y|L], L1) => L1 = [Y|L2], del(X, L, L2)
