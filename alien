@@ -1,0 +1,40 @@
+/*
+main(WordLength in Dict,List of Words in dictionary,Pattern)
+*/
+
+Input1:
+main(3,["abc","bca","dac","dbc","cba"],"(ab)(bc)(ca)").
+Output1:
+Total words in alien dictionary which match given pattern :
+2
+---------------------------------------------------------------------------------------------
+Input2:
+main(3,["abc","bca","dac","dbc","cba"],"(abc)(abc)(abc)").
+
+Output2:
+Total words in alien dictionary which match given pattern :
+3
+---------------------------------------------------------------------------------------------
+Input3:
+main(10,["nwlrbbmqbh","cdarzowkky","hiddqscdxr","jmowfrxsjy","bldbefsarc","bynecdyggx","xpklorelln","mpapqfwkho","pkmcoqhnwn","kuewhsqmgb","buqcljjivs","wmdkqtbxix","mvtrrbljpt","nsnfwzqfjm","afadrrwsof","sbcnuvqhff","bsaqxwpqca","cehchzvfrk","mlnozjkpqp","xrjxkitzyx","acbhhkicqc","oendtomfgd","wdwfcgpxiq","vkuytdlcgd","ewhtacioho","rdtqkvwcsg"],"(gu)(umo)(cdq)(bru)(ote)(xyk)(oah)(hwc)(vdm)(xr)").
+
+Output3:
+Total words in alien dictionary which match given pattern :
+0
+---------------------------------------------------------------------------------------------
+Input4:
+main(10,["nwlrbbmqbh","cdarzowkky","hiddqscdxr","jmowfrxsjy","bldbefsarc","bynecdyggx","xpklorelln","mpapqfwkho","pkmcoqhnwn","kuewhsqmgb","buqcljjivs","wmdkqtbxix","mvtrrbljpt","nsnfwzqfjm","afadrrwsof","sbcnuvqhff","bsaqxwpqca","cehchzvfrk","mlnozjkpqp","xrjxkitzyx","acbhhkicqc","oendtomfgd","wdwfcgpxiq","vkuytdlcgd","ewhtacioho","rdtqkvwcsg"],"(aknw)(glmw)(jlue)(kruw)(bci)(xbu)(mue)(qemn)(tyab)(hmrd)").
+
+Output4:
+Total words in alien dictionary which match given pattern :
+1
+---------------------------------------------------------------------------------------------
+Input5:
+main(10,["nwlrbbmqbh","cdarzowkky","hiddqscdxr","jmowfrxsjy","bldbefsarc","bynecdyggx","xpklorelln","mpapqfwkho","pkmcoqhnwn","kuewhsqmgb","buqcljjivs","wmdkqtbxix","mvtrrbljpt","nsnfwzqfjm","afadrrwsof","sbcnuvqhff","bsaqxwpqca","cehchzvfrk","mlnozjkpqp","xrjxkitzyx","acbhhkicqc","oendtomfgd","wdwfcgpxiq","vkuytdlcgd","ewhtacioho","rdtqkvwcsg"],"(ijklmopqrstuvyzabcefgh)(qrtuvwxyzabcdefghijklmnop)(ijmnopqsuvwxyabcdefgh)(fghijklmopqrstuvxyzbcde)").
+
+Output5:
+Total words in alien dictionary which match given pattern :
+0
+
+
+
