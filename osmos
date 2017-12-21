@@ -1,0 +1,303 @@
+Input 1 : 
+main(10,[25,20,9,100]).
+
+OutPut 1:
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+add
+absorb
+absorb
+absorb
+add
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 2
+
+--------------------------------------------------------------------------------------------------------------
+Input 2 :
+main(2,[2,1,1,6]).
+
+Output 2:
+% Searching with the bound 0
+% Searching with the bound 1
+[]
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+absorb
+absorb
+add
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 1
+
+--------------------------------------------------------------------------------------------------------------
+Input3 :
+main(3,[5,6,9,4,8,2,1,7]).
+
+Output3:
+% Searching with the bound 0
+[]
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 0
+
+--------------------------------------------------------------------------------------------------------------
+Input4 :
+main(3,[2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,524288,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000]).
+
+Output4 :
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 0
+
+--------------------------------------------------------------------------------------------------------------
+Input5:
+main(2,[9,64,19,16,81,80]).
+
+Output5:
+% Searching with the bound 0
+% Searching with the bound 1
+% Searching with the bound 2
+% Searching with the bound 3
+% Searching with the bound 4
+% Searching with the bound 5
+[]
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+add
+absorb
+add
+absorb
+add
+absorb
+add
+absorb
+absorb
+absorb
+absorb
+add
+absorb
+absorb
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 5
+
+--------------------------------------------------------------------------------------------------------------
+Input6:
+main(30646,[664476,108560,848833,495145,512378,476403,34531,888036,116684,839549,147686,753872,4097,58]).
+
+Output6:
+% Searching with the bound 0
+% Searching with the bound 1
+[]
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+absorb
+absorb
+add
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 1
+
+--------------------------------------------------------------------------------------------------------------
+Input7:
+main(51443,[855900,479520,481385,273817,557506,301115,634975,443084,326863,400070,438968,6264,52168,782123,797063,563400,998803,190502,32223,835292,41029,423996,514,133698,62595,677180,702123,656866,473986,5445,688,9702,271862,307276,3085,344293,36486,103184,130996,1955,8629,501508,18980,133981,817468,98721,126298,704950,87629,500924,754472,548930,368002,319247,594519,329786,213180,319287,748685,124530,45,44740,33913,262271,175269,1072,10728,893368,359365,16542,952034,210893,176324,180017,888346,401221,33018,745995,164195,12272,174308,307658,8607,323559,238409,656704,975995,1470,156689,957553,88,108685,296272,320552,57965,30865,11]).
+
+OutPut7:
+% Searching with the bound 0
+[]
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 0.
+
+--------------------------------------------------------------------------------------------------------------
+Input 8:
+main(13679,[757769,913434,857113,912273,58913,72584,568841,124156,149,4782,801651,3488,342619,857198,394970,21500,811652,145231,110138,797,486803,174359,300344,87312,149911,53]).
+
+Output 8:
+Sequence of operations : Remember cost of absorb=0,remove=1,add=1
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+add
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+absorb
+The minimum cost of operation required for absorbing all is 1
+
+--------------------------------------------------------------------------------------------------------------
+Input 9:
+main(1,[100,100,100,100,100,100,100,100]).
+
+Output 9:
+% Searching with the bound 0
+% Searching with the bound 1
+% Searching with the bound 2
+% Searching with the bound 3
+% Searching with the bound 4
+% Searching with the bound 5
+% Searching with the bound 6
+% Searching with the bound 7
+% Searching with the bound 8
+
+no

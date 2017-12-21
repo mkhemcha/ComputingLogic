@@ -1,0 +1,37 @@
+/* First argument of main is an alien Number
+   Second argument of main is characters in source Alien language
+   Third argument of main is characters in Target Alien language
+    
+    Remember all characters in First argument should be from Source Lang
+*/
+
+Input1:
+main([9],[0,1,2,3,4,5,6,7,8,9],['o','F',8]).
+
+Output1:
+Target Number is : ['F',o,o]
+-------------------------------------------------------------------------------------------------
+Input2:
+main(['F',o,o],['o','F',8],[0,1,2,3,4,5,6,7,8,9]).
+
+Output2:
+Target Number is : [9]
+-------------------------------------------------------------------------------------------------
+Input3:
+main([1,3],[0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f],[0,1]).
+
+Output3:
+Target Number is : [1,0,0,1,1]
+-------------------------------------------------------------------------------------------------
+Input 4:
+main([0,'V'],['I',5,0,'V','D'],['>','L','g']).
+
+Output 5:
+Target Number is : ['L','L','L']
+-------------------------------------------------------------------------------------------------
+Input 5:
+main(['@',4,'b'],['b',4,'_','@'],[8,'o','G','@','W',':','n','}','g']).
+
+Output 5:
+Target Number is : [:,'}']
+-------------------------------------------------------------------------------------------------
